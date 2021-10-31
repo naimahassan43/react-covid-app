@@ -1,9 +1,10 @@
 import React from "react";
+import Covid from "./components/Covid";
 
 const App = () => {
   return (
     <div>
-      <h1>Hello</h1>
+      <Covid />
     </div>
   );
 };
