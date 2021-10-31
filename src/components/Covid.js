@@ -11,12 +11,25 @@ const Covid = () => {
     }
   };
   useEffect(() => {
-    getCovidData();
+    // getCovidData();
   }, []);
   return (
     <div>
       <h1>LIVE</h1>
       <h2>COVID-19 CORONAVIRUS TRACKER</h2>
+
+      <ul>
+        <li className="card">
+          <div className="card-main">
+            <div className="card-inner">
+              <p className="card-name">
+                <span>OUR</span> COUNTRY
+              </p>
+              <p className="card-total card-small">INDIA</p>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
   );
 };
